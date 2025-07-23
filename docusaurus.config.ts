@@ -2,12 +2,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Distributed Async Await",
+  title: "Async RPC",
   tagline: "Specification for a holistic cloud programming model.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://distributed-async-await.io",
+  url: "https://async-rpc.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -15,7 +15,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "resonatehq", // Usually your GitHub org/user name.
-  projectName: "distributed-async-await.io", // Usually your repo name.
+  projectName: "async-rpc.io", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -36,8 +36,7 @@ const config: Config = {
           routeBasePath: "/", // Serve the docs at the site's root (ref: https://docusaurus.io/docs/next/docs-introduction#home-page-docs)
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/resonatehq/distributed-async-await.io/tree/main/",
+          editUrl: "https://github.com/resonatehq/async-rpc.io/tree/main/",
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           breadcrumbs: true,
