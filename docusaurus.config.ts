@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Async RPC",
   tagline: "Specification for a holistic cloud programming model.",
-  favicon: "img/favicon.ico",
+  favicon: "img/async-rpc-logo.png",
 
   // Set the production url of your site here
   url: "https://async-rpc.io",
