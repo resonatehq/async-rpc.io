@@ -1,0 +1,35 @@
+{
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/specification",
+      "destination": "https://www.distributed-async-await.io/spec",
+      "permanent": true
+    },
+    {
+      "source": "/specification/:path*",
+      "destination": "https://www.distributed-async-await.io/spec/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/glossary",
+      "destination": "https://www.distributed-async-await.io/spec/glossary",
+      "permanent": true
+    },
+    {
+      "source": "/overview",
+      "destination": "https://www.distributed-async-await.io/spec",
+      "permanent": true
+    },
+    {
+      "source": "/introduction",
+      "destination": "https://www.distributed-async-await.io/spec",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.distributed-async-await.io/",
+      "permanent": true
+    }
+  ]
+}
