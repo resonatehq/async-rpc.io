@@ -27,6 +27,11 @@
       "permanent": true
     },
     {
+      "source": "/",
+      "destination": "https://www.distributed-async-await.io/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://www.distributed-async-await.io/",
       "permanent": true
